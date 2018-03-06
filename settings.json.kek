@@ -115,7 +115,7 @@
   },
 
   // twitter, facebook, googleplus
-  "twitter": "kekcore",
+  "twitter": "KekcoinCore",
   "facebook": "",
   "googleplus": "",
 
@@ -156,8 +156,6 @@
   // url (optional) = url to link to for more information
   "labels": {
       "KEkWbC7MLpC6XPjs2omsCGbh4gDP4Aarka": {"label": "Developer Fund", "type":"primary"},
-      "KEKHLfAPtRtLXpkZipaCX5sPQrnGxAuQh7": {"label": "Meme Fund 4", "type":"primary"},
-      "KEkcQCpTMYDR5XQiXnrGYs1JTxjjJ4Tkv2": {"label": "Founders Reward", "type":"primary"},
       "KEKicwxBHZGWPUnXcKTEMjR1VcJFiDhi3k": {"label": "Meme Fund 1", "type":"primary"},
       "KEkVHK6uY1S9MxuggdNBWHdS8dWzbSyX2U": {"label": "Meme Fund 2", "type":"primary"},
       "KEKZBRjU7314zL57gzP4WxBSg5ckhDHvQz": {"label": "Meme Fund 3", "type":"primary"},
