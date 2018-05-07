@@ -90,6 +90,10 @@ sync.js (located in scripts/) is used for updating the local databases. This scr
 
 *It is recommended to have this script launched via a cronjob at 1+ min intervals.*
 
+For update / check there is a further argument required, the current block height
+
+    node scripts/sync.js index update $(~/kekcoin-cli getblockcount)
+
 **crontab**
 
 *Example crontab; update index every minute and market data every 2 minutes*
