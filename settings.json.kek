@@ -43,8 +43,11 @@
   //update script settings
   "update_timeout": 10,
   "check_timeout": 250,
+  "block_parallel_tasks": 1,
 
   // wallet settings
+  "use_rpc": false,
+  
   "wallet": {
     "host": "localhost",
     "port": 13377,
@@ -66,6 +69,7 @@
     "twitter": true,
     "facebook": false,
     "googleplus": false,
+    "youtube": false,
     "search": true,
     "movement": false,
     "network": false
@@ -74,8 +78,11 @@
   // index page (valid options for difficulty are POW, POS or Hybrid)
   "index": {
     "show_hashrate": false,
+    "show_market_cap": false,
+    "show_market_cap_over_price": false,
     "difficulty": "POS",
-    "last_txs": 250
+    "last_txs": 250,
+    "txs_per_page": 10
   },
 
   // ensure links on API page are valid
@@ -118,6 +125,7 @@
   "twitter": "KekcoinCore",
   "facebook": "",
   "googleplus": "",
+  "youtube": "",
 
   //genesis
   "genesis_tx": "833c5ee04faab2268a87d8d0a41e96ccb514068a66c7e74322315322f4f149d0",
@@ -125,9 +133,13 @@
 
   //heavy (enable/disable additional heavy features)
   "heavy": false,
+  
+  //disable saving blocks & TXs via API during indexing.
+  "lock_during_index": false,
 
   //amount of txs to index per address (stores latest n txs)
   "txcount": 100,
+  "txcount_per_page": 50,
 
   //show total sent & received on address page (set false if PoS)
   "show_sent_received": false,
