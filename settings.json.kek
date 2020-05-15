@@ -46,13 +46,13 @@
   "block_parallel_tasks": 1,
 
   // wallet settings
-  "use_rpc": false,
+  "use_rpc": true,
   
   "wallet": {
     "host": "localhost",
     "port": 13377,
-    "user": "user",
-    "pass": "jiofjiowj4oi4j3oij4oirjio4jfiojriojfoiwj410293-01924-alsoigp-1"
+    "username": "user",
+    "password": "jiofjiowj4oi4j3oij4oirjio4jfiojriojfoiwj410293-01924-alsoigp-1"
   },
 
   // confirmations
