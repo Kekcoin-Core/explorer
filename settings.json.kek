@@ -99,10 +99,10 @@
   "markets": {
     "coin": "KEK",
     "exchange": "BTC",
-    "enabled": ["cryptopia"],
+    "enabled": ["crex"],
     "cryptopia_id": "5295",
     "ccex_key" : "Get-Your-Own-Key",
-    "default": "cryptopia"
+    "default": "crex"
   },
 
   // richlist/top100 settings
